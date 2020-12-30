@@ -5,7 +5,10 @@ An integrated computer vision system for human recognition and behavior analysis
 
 ## Components
 This system has been created using the state-of-the-art computer vision components based on the following repositories:
-object detection - [PyTorch YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+*   object detection - [PyTorch YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+*   face detection
+
+Text
 <ul>
  
   <li>face detection - </li>
