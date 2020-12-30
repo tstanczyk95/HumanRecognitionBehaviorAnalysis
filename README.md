@@ -56,11 +56,11 @@ As described in [PyTorch YOLOv3 installation guidelines](https://github.com/erik
     $ bash get_coco_dataset.sh
 <br/>
 Following [the guidlines of Facial-Expression-Recognition.Pytorch](https://github.com/WuJie1010/Facial-Expression-Recognition.Pytorch#visualize-for-a-test-image-by-a-pre-trained-model), create a new folder: facial_recognition_pytorch_adapted/FER2013_VGG19/, download the pre-trained model from [link1](https://drive.google.com/open?id=1Oy_9YmpkSKX1Q8jkOhJbz3Mc7qjyISzU) or [link2 (key: g2d3)](https://pan.baidu.com/s/1gCL0TlCwKctAy_5yhzHy5Q)) and place it in the FER2013_VGG19/ folder.<br/>
-Further, download [Dlib's human face detector model](http://dlib.net/python/index.html#dlib.cnn_face_detection_model_v1) as well as [Dlib's shape predictor](http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2), unpack both files and place them inside facial_recognition_pytorch_adapted/
+Further, download Dlib's human face detector model from [here](http://dlib.net/cnn_face_detector.py.html) as well as Dlib's shape predictor from [here](http://dlib.net/face_recognition.py.html), unpack both files and place them inside facial_recognition_pytorch_adapted/
 <br/><br/>
 As described in [lightweight-human-pose-estimation.pytorch installation guidelines](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch#pre-trained-model-), download the pre-trained model from [link](https://download.01.org/opencv/openvino_training_extensions/models/human_pose_estimation/checkpoint_iter_370000.pth) and place it in lightweight_openpose_adapted/models/.
 <br/><br/>
-Finally, download: [Dlib's human face detector model](http://dlib.net/python/index.html#dlib.cnn_face_detection_model_v1), [Dlib's shape predictor](http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2), [Dlib's recognition resnet model](http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2), unpack all files and place them inside data/face_recognition/
+Finally, download: Dlib's human face detector model from [here](http://dlib.net/cnn_face_detector.py.html) and Dlib's shape predictor as well as Dlib's recognition resnet model from [here](http://dlib.net/face_recognition.py.html), unpack all files and place them inside data/face_recognition/
 
 ## How to run the program
 
