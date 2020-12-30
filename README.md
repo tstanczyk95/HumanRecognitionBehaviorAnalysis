@@ -19,4 +19,4 @@ The skeleton-based action recognition component was modified and expanded into p
 
 
 
-<p align="center"><img src="readme_images/system_architecture.png" width="600"\></p>
+<p align="center"><img src="readme_images/system_architecture.png" width="700"\></p>
