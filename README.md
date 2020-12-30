@@ -23,4 +23,4 @@ All the components were integrated into one system as presented below:
 
 <p align="center"><img src="extra_materials/readme_images/system_architecture.png" width="800"\></p>
 
-For more details about the components and the system itself, please check [internship presentation](extra_materials/presentation.pdf) and [abstract](extra_materials/abstract.pdf).
+For more details about the components and the system functionality, please check [internship presentation](extra_materials/presentation.pdf) and [abstract](extra_materials/abstract.pdf).
