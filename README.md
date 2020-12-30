@@ -44,5 +44,15 @@ The following packages need to be installed, with the newest versions recommende
 *   argparse
 *   PIL
 *   imutils
+<br/>
+As described in [PyTorch YOLOv3 installation guidelines](https://github.com/eriklindernoren/PyTorch-YOLOv3), 
+##### download pretrained weights :
+    $ cd pytorch_yolo_adapted/weights
+    $ bash download_weights.sh
+    
+##### and download COCO:
+    $ cd data/
+    $ bash get_coco_dataset.sh
+    
 
 
