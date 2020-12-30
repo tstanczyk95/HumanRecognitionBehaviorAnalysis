@@ -80,7 +80,7 @@ Launch command prompt or terminal and go to the project main folder (HumanRecogn
     python main.py
     
 The camera input window will appear and the processing will start.<br/>
-In order to stop the processing, set the focus on the output video window (e.g. by clicking on it) and press 'Q' from the keyboard.<br/>
+In order to stop the processing, set the focus on the output video window (e.g. by clicking on it) and press 'Q' from the keyboard.<br/><br/>
 The generated output files will include:
 *   the processed video sequence (no sound), saved in the format: "output_processed_video_[year]_[month]_[day]_[hour]_[minute]_[second].avi",
 *   the activity log text file (in case of successful and sufficient registration of the frames for action recognition) with potentially identified person, the performed action and corresponding facial emotion. The activity log file will be saved in the following format: "activity_logs_[year]_[month]_[day]_[hour]_[minute]_[second].txt".
