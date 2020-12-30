@@ -66,4 +66,12 @@ As described in [lightweight-human-pose-estimation.pytorch installation guidelin
 Finally, download: Dlib's human face detector model from [here](http://dlib.net/cnn_face_detector.py.html) and Dlib's shape predictor as well as Dlib's recognition resnet model from [here](http://dlib.net/face_recognition.py.html), unpack all files and place them inside data/face_recognition/
 
 ## Generating more descriptors for facial recognition
+In order to generate more facial descriptors, 
+
+##### go to data/face_recognition/ and type the following:
+    $ face_descriptor_generator.py shape_predictor_5_face_landmarks.dat dlib_face_recognition_resnet_model_v1.dat /path/to/the/input/image "name of the person"
+    
+Move the generated descriptor to face_descriptors/ . Note that the input image should contain photo of only one person. In case of multiple faces detected, only the first one will be processed and saved to the file.
+
+## Running the program
 
