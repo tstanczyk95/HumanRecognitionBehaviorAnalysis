@@ -45,6 +45,7 @@ The following packages need to be installed, with the newest versions recommende
 *   PIL
 *   imutils
 <br/>
+
 As described in [PyTorch YOLOv3 installation guidelines](https://github.com/eriklindernoren/PyTorch-YOLOv3/blob/master/README.md#download-pretrained-weights),
 
 ##### download pretrained weights :
