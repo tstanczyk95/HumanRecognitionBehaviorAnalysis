@@ -26,7 +26,7 @@ All the components were integrated into one system as presented below:
 For more details about the components and the system functionality, please check [internship presentation](extra_materials/presentation.pdf) and [abstract](extra_materials/abstract.pdf).
 
 
-## How to run the program
+## Installation
 An RGB camera is required.<br/>
 The following packages need to be installed, with the newest versions recommended:
 *   pytorch (torch)
@@ -48,18 +48,20 @@ The following packages need to be installed, with the newest versions recommende
 As described in [PyTorch YOLOv3 installation guidelines](https://github.com/eriklindernoren/PyTorch-YOLOv3/blob/master/README.md#download-pretrained-weights),
 
 ##### download pretrained weights :
-    $ cd pytorch_yolo_adapted/weights
+    $ cd pytorch_yolo_adapted/weights/
     $ bash download_weights.sh
     
 ##### and download COCO:
-    $ cd pytorch_yolo_adapted/data
+    $ cd pytorch_yolo_adapted/data/
     $ bash get_coco_dataset.sh
 <br/>
-Following [the guidlines of Facial-Expression-Recognition.Pytorch](https://github.com/WuJie1010/Facial-Expression-Recognition.Pytorch#visualize-for-a-test-image-by-a-pre-trained-model), create a new folder: facial_recognition_pytorch_adapted/FER2013_VGG19, download the pre-trained model from [link1](https://drive.google.com/open?id=1Oy_9YmpkSKX1Q8jkOhJbz3Mc7qjyISzU) or [link2 (key: g2d3)](https://pan.baidu.com/s/1gCL0TlCwKctAy_5yhzHy5Q)) and place it in the FER2013_VGG19 folder.<br/>
-Further, download [Dlib's human face detector model](http://dlib.net/python/index.html#dlib.cnn_face_detection_model_v1) as well as [Dlib's shape predictor](https://github.com/davisking/dlib-models/blob/master/shape_predictor_5_face_landmarks.dat.bz2), unpack both files and place them inside facial_recognition_pytorch_adapted)
+Following [the guidlines of Facial-Expression-Recognition.Pytorch](https://github.com/WuJie1010/Facial-Expression-Recognition.Pytorch#visualize-for-a-test-image-by-a-pre-trained-model), create a new folder: facial_recognition_pytorch_adapted/FER2013_VGG19/, download the pre-trained model from [link1](https://drive.google.com/open?id=1Oy_9YmpkSKX1Q8jkOhJbz3Mc7qjyISzU) or [link2 (key: g2d3)](https://pan.baidu.com/s/1gCL0TlCwKctAy_5yhzHy5Q)) and place it in the FER2013_VGG19/ folder.<br/>
+Further, download [Dlib's human face detector model](http://dlib.net/python/index.html#dlib.cnn_face_detection_model_v1) as well as [Dlib's shape predictor](http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2), unpack both files and place them inside facial_recognition_pytorch_adapted/
 <br/><br/>
-As described in [lightweight-human-pose-estimation.pytorch installation guidelines](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch#pre-trained-model-), download the pre-trained model from [link](https://download.01.org/opencv/openvino_training_extensions/models/human_pose_estimation/checkpoint_iter_370000.pth) and place it in lightweight_openpose_adapted/models.
+As described in [lightweight-human-pose-estimation.pytorch installation guidelines](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch#pre-trained-model-), download the pre-trained model from [link](https://download.01.org/opencv/openvino_training_extensions/models/human_pose_estimation/checkpoint_iter_370000.pth) and place it in lightweight_openpose_adapted/models/.
 <br/><br/>
-Finally, 
+Finally, download: [Dlib's human face detector model](http://dlib.net/python/index.html#dlib.cnn_face_detection_model_v1), [Dlib's shape predictor](http://dlib.net/files/shape_predictor_5_face_landmarks.dat.bz2), [Dlib's recognition resnet model](http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2), unpack all files and place them inside data/face_recognition/
+
+## How to run the program
 
 
