@@ -65,6 +65,5 @@ As described in [lightweight-human-pose-estimation.pytorch installation guidelin
 
 Finally, download: Dlib's human face detector model from [here](http://dlib.net/cnn_face_detector.py.html) and Dlib's shape predictor as well as Dlib's recognition resnet model from [here](http://dlib.net/face_recognition.py.html), unpack all files and place them inside data/face_recognition/
 
-## How to run the program
-
+## Generating more descriptors for facial recognition
 
