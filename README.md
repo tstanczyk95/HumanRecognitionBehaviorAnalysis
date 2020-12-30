@@ -24,3 +24,25 @@ All the components were integrated into one system as presented below:
 <p align="center"><img src="extra_materials/readme_images/system_architecture.png" width="800"\></p>
 
 For more details about the components and the system functionality, please check [internship presentation](extra_materials/presentation.pdf) and [abstract](extra_materials/abstract.pdf).
+
+
+## How to run the program
+An RGB camera is required.<br/>
+The following packages need to be installed, with the newest versions recommended:
+*   pytorch (torch)
+*   torchvision
+*   h5py
+*   sklearn
+*   pycocotools
+*   opencv-python
+*   numpy
+*   matplotlib
+*   terminaltables
+*   pillow
+*   tqdm
+*   dlib (with GPU support)
+*   argparse
+*   PIL
+*   imutils
+
+
