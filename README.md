@@ -60,7 +60,7 @@ Following [the guidlines of Facial-Expression-Recognition.Pytorch](https://githu
 Further, download Dlib's human face detector model from [here](http://dlib.net/cnn_face_detector.py.html) as well as Dlib's shape predictor from [here](http://dlib.net/face_recognition.py.html), unpack both files and place them inside facial_recognition_pytorch_adapted/
 <br/><br/>
 
-As described in [lightweight-human-pose-estimation.pytorch installation guidelines](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch#pre-trained-model-), download the pre-trained model from [link](https://download.01.org/opencv/openvino_training_extensions/models/human_pose_estimation/checkpoint_iter_370000.pth) and place it in lightweight_openpose_adapted/models/.
+As described in [lightweight-human-pose-estimation.pytorch installation guidelines](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch#pre-trained-model-), download the pre-trained model from [here](https://download.01.org/opencv/openvino_training_extensions/models/human_pose_estimation/checkpoint_iter_370000.pth) and place it in lightweight_openpose_adapted/models/.
 <br/><br/>
 
 Finally, download: Dlib's human face detector model from [here](http://dlib.net/cnn_face_detector.py.html) and Dlib's shape predictor as well as Dlib's recognition resnet model from [here](http://dlib.net/face_recognition.py.html), unpack all files and place them inside data/face_recognition/
