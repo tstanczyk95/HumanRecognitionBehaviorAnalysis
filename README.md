@@ -14,9 +14,9 @@ This system was created using the state-of-the-art computer vision components ba
 *   skeleton-based action recognition - [2s-AGCN (MS-AAGCN)](https://github.com/lshiwjx/2s-AGCN).
 
 The skeleton-based action recognition component was modified and expanded into practically usable component. The whole pipeline extracting skeletons human pose skeletons from RGB video was created:
-<p align="center"><img src="readme_images/act_rec_pipelinepng.png.png" width="600"\></p>
+<p align="center"><img src="readme_images/act_rec_pipelinepng.png" width="600"\></p>
 
 
 
 
-<p align="center"><img src="readme_images/system_architecture.png.png" width="600"\></p>
+<p align="center"><img src="readme_images/system_architecture.png" width="600"\></p>
