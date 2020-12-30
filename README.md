@@ -16,7 +16,7 @@ This system was created using the state-of-the-art computer vision components ba
 The skeleton-based action recognition component was modified and expanded into practically usable component. The whole pipeline extracting skeletons human pose skeletons from RGB video was created:
 <p align="center"><img src="readme_images/act_rec_pipelinepng.png" width="600"\></p>
 
-The skeleton-based action recognition component was trained on the custom 2D skeleton dataset. Using [Lightweight OpenPose](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch), 2D skeletons were extracted from RGB videos coming from the original [NTU-RGB+D dataset](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp). First 60 classes (A001-A060) were taken into account.<br/>
+The skeleton-based action recognition component was trained on the custom 2D skeleton dataset. Using the same approach with [Lightweight OpenPose](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch) as for the action recognition pipeline, 2D skeletons were extracted from RGB videos coming from the original [NTU-RGB+D dataset](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp). First 60 classes (A001-A060) were taken into account.<br/>
 <!-- The derived datasets will be released soon upon the agreement from the authors of the original dataset -->
 <br/>
 All the components were integrated into one system as presented below:
